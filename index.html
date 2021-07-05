@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">welcome to media player</h1>
+ <div class="container">
+    <div class="box" id="player">
+        <div id="name">matkat maya ko ahankar</div>
+        <div id="artist">kabir cafe'</div>
+        <div class="image"> 
+            <img src="images/matkar.jpg" alt="no image" title="song">
+        </div>
+        <audio class="matkar" src="music/matkar.mp3" ></audio>
+        <div class="button">
+            <i class="fa fa-backward fa-lg" id="back"></i>
+         <i class="fa fa-play fa-lg" id="play" ></i>
+    <i class="fa fa-forward fa-lg " id="forw"></i>
+
+
+     
+    </div>
+ 
+    </div>
+    <div class="box" id="list">
+        <p class="song">songs </p>
+    <div class="all_songs">
+        <div class="songs" id="song_1"> <span class="fa fa-music fa-lg"></span> <span class="block">matkar maya ko ahankar <p class="singer">kabir cafe'</p></span> </div> <hr>
+        <div class="songs" id="song_2"> <span class="fa fa-music fa-lg"></span> <span class="block">kabhi jo badal barse <p class="singer">arijit singh</p></span> </div><hr>
+        <div class="songs" id="song_3"> <span class="fa fa-music fa-lg"></span> <span class="block">bulleya</span><p class="singer">amit mishra, shilpa rao</p></div> <hr>
+        <div class="songs" id="song_4"><span class="fa fa-music fa-lg"></span> <span class="block">hawayein</span> <p class="singer">arijit singh</p> </div> <hr>
+        <div class="songs" id="song_5"> <span class="fa fa-music fa-lg"></span> <span class="block">mann mera</span> <p class="singer">gajendra verma</p> </div><hr>
+        <div class="songs" id="song_6"> <span class="fa fa-music fa-lg"></span> <span class="block">ek mulakat</span><p class="singer">altamash faridi, palak muchhal</p> </div><hr>
+        <div class="songs" id="song_7"> <span class="fa fa-music fa-lg"></span> <span class="block">naino se naina takraye <p class="singer">yasser desai, altamash faridi</p></span> </div><hr>
+        <div class="songs" id="song_8"> <span class="fa fa-music fa-lg"></span> <span class="block">sooraj dooba hai  <p class="singer">arijit singh, aditi singh sharma</p> </span> </div><hr>
+        <div class="songs" id="song_9"><span class="fa fa-music fa-lg"></span> <span class="block">agar tum sath ho <p class="singer"> arijit singh, alka yagnik</p></span> </div>
+    </div>
+    </div>
+</div>
+    
+</body>
+<script src="script.js"></script>
+</html>
